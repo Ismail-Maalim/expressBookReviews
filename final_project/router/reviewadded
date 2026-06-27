@@ -1,0 +1,8 @@
+curl -X PUT -b cookie.txt "http://localhost:5000/customer/auth/review/1?review=Highly%20recommended"
+
+{
+    "message": "Review successfully added/updated",
+    "reviews": {
+        "testuser": "Highly recommended"
+    }
+}

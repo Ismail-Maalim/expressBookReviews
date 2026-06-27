@@ -1,4 +1,5 @@
-theia@theia-ismailmaalim:/halhost:5000/ curl -X GET http://loca
+curl -X GET http://localhost:5000/
+
 {
     "1": {
         "author": "Chinua Achebe",
